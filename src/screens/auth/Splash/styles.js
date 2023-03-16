@@ -4,13 +4,14 @@ import {colors} from '../../../utils/colors';
 export const styles = StyleSheet.create({
   image: {
     width: '100%',
-    height: 200,
-    top: 200,
+    height: 300,
+    top: 150,
+    backgroundColor: colors.WHITE,
   },
   splash__title: {
     fontSize: 40,
     fontWeight: 'bold',
-    top: 275,
+    top: 225,
     left: 55,
   },
   inner__title: {
@@ -22,7 +23,7 @@ export const styles = StyleSheet.create({
     height: 60,
     borderRadius: 5,
     left: 45,
-    top: 325,
+    top: 300,
   },
   button_title: {
     color: colors.WHITE,
@@ -36,6 +37,6 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '500',
     textAlign: 'center',
-    top: 340,
+    top: 320,
   },
 });
