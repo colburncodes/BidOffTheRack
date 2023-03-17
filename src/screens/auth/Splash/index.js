@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, Image, Pressable} from 'react-native';
+import {Text, Image, Pressable, View} from 'react-native';
 import {Button} from '../../../components/Button';
 import {styles} from '../Splash/styles';
 export function Splash() {
@@ -11,7 +11,7 @@ export function Splash() {
   }
 
   return (
-    <>
+    <View style={styles.container}>
       <Image
         style={styles.image}
         source={require('../../../assets/splash.png')}
@@ -27,6 +27,6 @@ export function Splash() {
       <Pressable onPress={handleSignInUser}>
         <Text style={styles.signin_text}>Sign In</Text>
       </Pressable>
-    </>
+    </View>
   );
 }
