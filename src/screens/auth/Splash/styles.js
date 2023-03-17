@@ -2,17 +2,22 @@ import {StyleSheet} from 'react-native';
 import {colors} from '../../../utils/colors';
 
 export const styles = StyleSheet.create({
+  container: {
+    padding: 20,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    height: '100%',
+    alignItems: 'center',
+  },
   image: {
     width: '100%',
     height: 300,
-    top: 150,
     backgroundColor: colors.WHITE,
   },
   splash__title: {
     fontSize: 40,
     fontWeight: 'bold',
-    top: 225,
-    left: 55,
+    top: 50,
   },
   inner__title: {
     color: colors.ORANGE,
@@ -22,8 +27,8 @@ export const styles = StyleSheet.create({
     width: 300,
     height: 60,
     borderRadius: 5,
-    left: 45,
-    top: 300,
+
+    top: 100,
   },
   button_title: {
     color: colors.WHITE,
@@ -37,6 +42,6 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '500',
     textAlign: 'center',
-    top: 320,
+    top: 120,
   },
 });
